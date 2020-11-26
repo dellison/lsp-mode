@@ -27,8 +27,6 @@
 (require 'lsp-mode)
 (require 'dash)
 
-(declare-function assoc-delete-all "subr" (key alist &optional test))
-
 (defgroup lsp-yaml nil
   "LSP support for YAML, using yaml-language-server."
   :group 'lsp-mode
