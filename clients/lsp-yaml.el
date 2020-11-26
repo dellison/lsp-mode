@@ -24,8 +24,10 @@
 
 ;;; Code:
 
-(require 'seq)
 (require 'lsp-mode)
+(require 'seq)
+
+(declare-function seq-filter "seq" (pred sequence))
 
 (defgroup lsp-yaml nil
   "LSP support for YAML, using yaml-language-server."
