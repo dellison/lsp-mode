@@ -27,6 +27,7 @@
 (require 'lsp-mode)
 (require 'seq)
 
+(declare-function assoc-delete-all "subr" (key alist &optional test))
 (declare-function seq-contains-p"seq" (sequence elt &optional testfn))
 (declare-function seq-filter "seq" (pred sequence))
 
