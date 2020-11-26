@@ -24,6 +24,7 @@
 
 ;;; Code:
 
+(require 'seq)
 (require 'lsp-mode)
 
 (defgroup lsp-yaml nil
