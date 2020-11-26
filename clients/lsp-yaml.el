@@ -27,6 +27,7 @@
 (require 'lsp-mode)
 (require 'seq)
 
+(declare-function seq-contains-p"seq" (sequence elt &optional testfn))
 (declare-function seq-filter "seq" (pred sequence))
 
 (defgroup lsp-yaml nil
